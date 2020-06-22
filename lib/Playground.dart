@@ -19,4 +19,8 @@ class Bicycle {
 
 // Dart's main method is named main() or,
 // To access to command-line arguments, main(List<String> args)
-void main() {}
+void main() {
+  // For unchanged value, use final instead of var
+  var bike = Bicycle(2, 0, 1);
+  print(bike);
+}
